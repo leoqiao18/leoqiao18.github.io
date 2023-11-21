@@ -1,3 +1,19 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://leoqiao18.github.io/"
+languageCode = "en-us"
+title = "Feitong Leo Qiao"
+
+defaultContentLanguage = "en"
+
+[social]
+github = "github.com/leoqiao18"
+
+[params]
+author = "Feitong Qiao"
+bio = "M.S. CS@Columbia"
+# description = "I am a Master's Computer Science student at Columbia University."
+showPowerBy = false
+
+
+links = [
+    # { name = "Project", path = "/project" }
+]
