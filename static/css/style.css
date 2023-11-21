@@ -80,7 +80,13 @@ tr:nth-child(odd)>td {
     background: #fcfcfc;
 }
 
-h1 {
+h1,
+h2,
+h3 {
+    font-weight: 400;
+}
+
+/* h1 {
     font-size: 32px;
     font-weight: 600;
 }
@@ -93,7 +99,7 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 400;
-}
+} */
 
 p {
     margin-block-start: 1.5em;

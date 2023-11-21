@@ -15,5 +15,8 @@ showPowerBy = false
 
 
 links = [
-    # { name = "Project", path = "/project" }
+    { name = "Research", path = "/research" },
+    { name = "Projects", path = "/projects" },
+    { name = "CV", path = "/files/cv.pdf" },
+    { name = "Photography", path = "/photography" },
 ]
