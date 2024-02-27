@@ -7,7 +7,9 @@ draft = false
 
 ## "Statically Inferring Usage Bound for Infrastructure as Code"
 
-__Feitong Qiao, Aryana Mohammadi, Jürgen Cito, Mark Santolucito__ (in submission)
+__Feitong Qiao__, Aryana Mohammadi, Jürgen Cito, Mark Santolucito. (In Submission)
+
+[PDF](https://arxiv.org/abs/2402.15632)
 
 _(Abstract)_
 Infrastructure as Code (IaC) has enabled cloud customers to have more agility in creating and modifying complex deployments of cloud-provisioned resources. By writing a configuration in IaC languages such as CloudFormation, users can declaratively specify their infrastructure and CloudFormation will handle the creation of the resources. However, understanding the complexity of IaC deployments has emerged as an unsolved issue. In particular, estimating the cost of an IaC deployment requires estimating the future usage and pricing models of every cloud resource in the deployment. Gaining transparency into predicted usage/costs is a leading challenge in cloud management. Existing work either relies on historical usage metrics to predict cost or on coarse-grain static analysis that ignores interactions between resources. Our key insight is that the topology of an IaC deployment imposes constraints on the usage of each resource, and we can formalize and automate the reasoning on constraints by using an SMT solver. This allows customers to have formal guarantees on the bounds of their cloud usage. We propose a tool for fine-grained static usage analysis that works by modeling the inter-resource interactions in an IaC deployment as a set of SMT constraints, and evaluate our tool on a benchmark of over 1000 real world IaC configurations.
